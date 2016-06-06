@@ -37,6 +37,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+## Gemfile for Rails 3+, Sinatra, or Merb
+gem 'will_paginate', '~> 3.0.6'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
