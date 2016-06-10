@@ -46,6 +46,12 @@ gem 'simple_form'
 # Gemfile for user authentication
 gem 'devise', '>= 3.2.4'
 
+# Gemfile for geocoding
+gem 'geocoder', '1.3.4'
+
+# Gemfile to allow storing sensitive material on localhost
+gem 'figaro', '>= 1.0.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
