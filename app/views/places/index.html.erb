@@ -19,6 +19,14 @@
             </blockquote>
           </div>
         <% end %>
+
+        <% if place.photos.present? %>
+          <div>
+            <%= image_tag place.photos.last.picture, class: 'img-responsive' %>
+          </div>
+        <% end %>
+        
+
     </div>
 <% end %>
 

@@ -52,6 +52,12 @@ gem 'geocoder', '1.3.4'
 # Gemfile to allow storing sensitive material on localhost
 gem 'figaro', '>= 1.0.0'
 
+#Gemfile for carrierwave and image field
+gem 'carrierwave'
+
+# Configuring CarrierWave with Amazon S3
+gem 'fog'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
