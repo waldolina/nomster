@@ -104,4 +104,24 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+  margin-bottom:20px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+}
+
+.place_name {
+  display: inline-block;
+}
+
+.place_name_link a{
+  color: #F5B673;
+}
+
+.place_photo {
+  padding-bottom:20px;
 }
