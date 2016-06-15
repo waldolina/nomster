@@ -134,7 +134,7 @@
     <br />
     <br />
      <% @place.photos.each do |photo| %>
-    <div class='col-xs-12 col-sm-6'>
+    <div class='col-xs-12 col-sm-6 clearfix'>
        <%= image_tag photo.picture, class: 'img-responsive' %>
       <i><small><%= photo.caption %></small></i>
         </div>
